@@ -2,204 +2,93 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Emerald Martial Arts – Build confidence, strength, and discipline through professional martial arts training for all ages.">
-  <title>Emerald Martial Arts</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Martial Arts Dojo</title>
   <style>
-    /* Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
     body {
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fdf6ee;
+      color: #1a1a1a;
     }
-
-    header {
-      background: #0a3d62;
-      color: white;
-      padding: 20px 0;
-    }
-
-    nav {
-      max-width: 1200px;
-      margin: auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 20px;
-    }
-
-    nav img {
-      height: 50px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
     .hero {
-      background: url('hero.jpg') center/cover no-repeat;
-      padding: 100px 20px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Karateka_with_black_belt.jpg') center/cover no-repeat;
       color: white;
-      text-align: center;
-      background-color: #1e272e; /* fallback */
-    }
-
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 20px;
-    }
-
-    .hero p {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      padding: 10px 20px;
-      background: #0a3d62;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    section {
       padding: 60px 20px;
-      max-width: 1200px;
+      text-align: center;
+      position: relative;
+    }
+    .hero h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+    .btn {
+      background: #c62828;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
       margin: auto;
     }
-
-    .program-list {
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .classes {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
     }
-
-    .program {
+    .class-box {
+      border: 2px solid #c62828;
+      padding: 20px;
       flex: 1;
-      min-width: 250px;
+      min-width: 200px;
       background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    form button {
-      background: #0a3d62;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    footer {
-      background: #0a3d62;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 768px) {
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
-      }
-
-      .program-list {
-        flex-direction: column;
-      }
     }
   </style>
 </head>
-
 <body>
-  <!-- HEADER SECTION -->
-  <header>
-    <nav>
-      <img src="logo.png" alt="Emerald Martial Arts Logo" />
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Programs</a></li>
-        <li><a href="#">Instructors</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <h1>Welcome to Emerald Martial Arts</h1>
-    <p>Build confidence, strength, and discipline through expert martial arts training.</p>
-    <a href="#contact" class="btn">Get Started Today</a>
+  <div class="hero">
+    <h1>WELCOME TO<br><strong>MARTIAL ARTS</strong></h1>
+    <p>Empowering students through <strong>discipline, focus,</strong> and respect</p>
+    <button class="btn">GET STARTED</button>
+  </div>
+
+  <section>
+    <h2>ABOUT US</h2>
+    <p>Our dojo offers traditional martial arts training for all ages and skill levels in a supportive environment.</p>
   </section>
 
-  <!-- ABOUT SECTION -->
-  <section class="about">
-    <h2>About Us</h2>
-    <p>We offer martial arts training for all ages and skill levels in a positive and professional environment.</p>
-  </section>
-
-  <!-- PROGRAMS SECTION -->
-  <section class="programs">
-    <h2>Our Programs</h2>
-    <div class="program-list">
-      <div class="program">
-        <h3>Kids Martial Arts</h3>
-        <p>Fun, fitness, and focus for children.</p>
+  <section>
+    <h2>OUR CLASSES</h2>
+    <div class="classes">
+      <div class="class-box">
+        <strong>KARATE</strong><br>
+        Develop strength, agility, and self-defense skills.
       </div>
-      <div class="program">
-        <h3>Adult Martial Arts</h3>
-        <p>Strength, discipline, and self-defense for adults.</p>
+      <div class="class-box">
+        <strong>KUNG FU</strong><br>
+        Enhance coordination, flexibility, and mental focus.
       </div>
     </div>
   </section>
 
-  <!-- INSTRUCTORS SECTION -->
-  <section class="instructors">
-    <h2>Meet Our Instructors</h2>
-    <p>Experienced, certified, and passionate teachers dedicated to your success.</p>
+  <section>
+    <h2>MEET OUR INSTRUCTORS</h2>
+    <p>Experienced and dedicated martial artists committed to helping you grow through every step of your journey.</p>
   </section>
 
-  <!-- CONTACT SECTION -->
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>&copy; 2025 Emerald Martial Arts. All rights reserved.</p>
-  </footer>
 </body>
 </html>
